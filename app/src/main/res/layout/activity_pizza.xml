@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/lyotP"
+    android:background="@color/AntiqueWhite"
+    tools:context=".Pizza">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/greatvibes_regular"
+        android:textSize="@dimen/ttlSize"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="@string/ttlPizza"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ttlSpinner"
+            android:fontFamily="@font/greatvibes_regular"
+            android:textSize="@dimen/ttlSize"/>
+
+        <Spinner
+            android:id="@+id/pizzaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/pizzas"
+            android:fontFamily="@font/greatvibes_regular"/>
+
+        <TextView
+            android:id="@+id/pizzaDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/lyotP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ttlDough"
+            android:fontFamily="@font/greatvibes_regular"
+            android:textSize="@dimen/ttlSize"/>
+
+        <Spinner
+            android:id="@+id/doughSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/greatvibes_regular"
+            android:entries="@array/doughs"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/lyotP">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/btnMargin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ttlSize"
+                android:fontFamily="@font/greatvibes_regular"
+                android:textSize="@dimen/ttlSize"/>
+
+            <Button
+                android:layout_marginTop="@dimen/lyotP"
+                android:id="@+id/sizes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ttlDefaultPizzaSize"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/greatvibes_regular"
+                android:textColor="@color/AntiqueWhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/btnMargin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ttlTopping"
+                android:fontFamily="@font/greatvibes_regular"
+                android:textSize="@dimen/ttlSize"/>
+
+            <Button
+                android:layout_marginTop="@dimen/lyotP"
+                android:id="@+id/toppings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn"
+                android:textColor="@color/AntiqueWhite"
+                android:text="@string/ttlDefaultToppingsCount"
+                android:fontFamily="@font/greatvibes_regular"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/totalP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/greatvibes_regular"
+            android:textColor="@color/AntiqueWhite"
+            android:text="@string/lblTotalPrice_placeholder"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+             />
+
+    </RelativeLayout>
+
+</LinearLayout>

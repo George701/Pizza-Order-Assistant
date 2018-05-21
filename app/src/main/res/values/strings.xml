@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Pizza Order Assistant</string>
+
+    <!--First Activity-->
+    <string name="ttlSlogan">Make a friend, order Pizza!</string>
+
+    <!--Button titles-->
+    <string name="btnPizza">New Pizza</string>
+    <string name="btnCart">Shopping cart</string>
+    <string name="btnExit">Exit</string>
+
+    <!--Second Activity-->
+    <string name="ttlPizza">Pizza</string>
+    <string name="ttlSpinner">Varieties</string>
+    <string name="ttlDefaultPizzaSize">Small</string>
+    <string name="ttlDefaultToppingsCount">[0]</string>
+
+    <string name="ttlNoExtraTop">No extra toppings</string>
+
+
+    <!-- Actions -->
+    <string name="actionSelect">Select</string>
+    <string name="actionCancel">Cancel</string>
+    <string name="actionReset">Reset</string>
+
+
+    <!-- Labels -->
+    <string name="lblTotalPrice_placeholder">Total price: 0.0 $</string>
+
+
+    <!-- Templates -->
+    <string name="templTotalPrice">Total price: %d $</string>
+
+    <!-- Array with Pizzas -->
+    <!-- WHEN ADD NEW PIZZA, THE PRICE IS COMPULSORY -->
+    <string name="pizPrompt">Choose pizza</string>
+    <string-array name="pizzas">
+        <item>Lahma Bi Ajeen</item>
+        <item>Margherita</item>
+        <item>Calzone</item>
+        <item>Stromboil</item>
+        <item>Marinara</item>
+        <item>Neapolitan</item>
+        <item>Deep Dish</item>
+    </string-array>
+    <string-array name="pizPrices">
+        <item>30.29</item>
+        <item>28.99</item>
+        <item>26.59</item>
+        <item>25.45</item>
+        <item>23.89</item>
+        <item>20.79</item>
+        <item>15.99</item>
+    </string-array>
+
+    <!--Dough-->
+    <string name="ttlDough">Select a dough</string>
+    <string-array name="doughs">
+        <item>Neapolitan</item>
+        <item>New York</item>
+        <item>Sicilian</item>
+    </string-array>
+
+    <!--Sizes-->
+    <string name="ttlSize">Select size</string>
+    <string-array name="sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="sizeRate">
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+
+    <!--Toppings-->
+    <string name="ttlTopping">Select toppings</string>
+    <string-array name="toppings">
+        <item>Oregano           </item>
+        <item>Mushroom          </item>
+        <item>Clam              </item>
+        <item>Artichoke         </item>
+        <item>Sun-dried tomatoes</item>
+        <item>Chicken           </item>
+        <item>Pineapple         </item>
+        <item>Olives            </item>
+        <item>Bacon             </item>
+        <item>Sausage           </item>
+        <item>Basil             </item>
+        <item>Pepperoni         </item>
+        <item>Tuna              </item>
+    </string-array>
+    <string-array name="toppingsPrices">
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+        <item>0.2</item>
+    </string-array>
+
+    <!--Third activity-->
+    <!--Set of buttons-->
+    <string name="btnOrder">Make order</string>
+    <string name="btnDelete">-</string>
+</resources>

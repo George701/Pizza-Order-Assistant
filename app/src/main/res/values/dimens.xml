@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnH">50dp</dimen>
+    <dimen name="btnW">300dp</dimen>
+    <dimen name="lyotP">20dp</dimen>
+    <dimen name="mbBtn">10dp</dimen>
+    <dimen name="btnSize">15sp</dimen>
+    <dimen name="ttlSize">20sp</dimen>
+    <dimen name="btnMargin">3dp</dimen>
+</resources>
